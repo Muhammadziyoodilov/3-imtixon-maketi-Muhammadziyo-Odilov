@@ -1,0 +1,23 @@
+.btn:hover {
+  color: $light-green;
+}
+.btn {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 2.29px;
+  color: $white;
+  position: relative;
+  &::before {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: $light-green;
+    bottom: -5px;
+    transition: 0.3s;
+  }
+  &:hover::before {
+    width: 100%;
+  }
+}

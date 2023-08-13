@@ -1,0 +1,39 @@
+@import "./abstracts/variables";
+@import "./abstracts/mixin";
+@import "./vendors/normalize";
+@import "./base/resets";
+@import "./base/typography";
+@import "./components/buttons";
+@import "./layout/forms";
+@import "./layout/header";
+@import "./layout/footer";
+@import "./pages/home";
+@import "./pages/about";
+@import "./pages/contact";
+
+body {
+  background-image: url(../images/Home.png);
+  background-color: #151515;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.text-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../images/Bitmap2.png);
+}
+.text-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../images/Bitmap3.png);
+}
+.text-4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../images/Bitmap4.png);
+}
+.text-5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../images/Bitmap5.png);
+}
+.text-6 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../images/Bitmap6.png);
+}

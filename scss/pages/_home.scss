@@ -1,0 +1,138 @@
+.adam {
+  text-decoration: underline $light-green;
+}
+.hero-info {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: $grey;
+  margin-bottom: 66px;
+}
+.hero-title {
+  margin-bottom: 43px;
+}
+.hero {
+  margin-bottom: 231px;
+}
+.information {
+  margin-bottom: 140px;
+}
+.line {
+  margin-bottom: 72px;
+}
+.lang-title {
+  margin-bottom: 14px;
+}
+.language-p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: $grey;
+}
+.lang-list {
+  display: flex;
+}
+.lang-list-1 {
+  margin-bottom: 58px;
+}
+.lang-item-1 {
+  margin-right: 285px;
+}
+.lang-item-2 {
+  margin-right: 266px;
+}
+.lang-item-3 {
+  margin-right: 98px;
+}
+.lang-item-4 {
+  margin-right: 216px;
+}
+.shtoto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img {
+  width: 540px;
+  height: 400px;
+  z-index: 6;
+  position: relative;
+}
+.card {
+  width: 540px;
+  height: 400px;
+  margin-bottom: 138px;
+}
+.text {
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../images/Bitmap.png);
+  width: 540px;
+  height: 400px;
+  top: -400px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-img-link :hover {
+  display: none;
+}
+.card-link {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 2.29px;
+  color: $white;
+  text-decoration: underline 2px $light-green;
+  margin-bottom: 40px;
+}
+.card-link :hover {
+  color: $light-green;
+}
+.project-title {
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 2.3px;
+}
+.project-inf {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: $grey;
+}
+.project-inf {
+  margin-right: 18px;
+}
+.info-2 {
+  margin: 0;
+}
+.inf-wrapper {
+  display: flex;
+}
+.project-tagidagi-narsa {
+  position: relative;
+  top: -387px;
+}
+.cards-wrapper {
+  display: flex;
+  margin-bottom: 223px;
+}
+.left-card {
+  margin-right: 27px;
+}
+.card-img-problem {
+  width: 540px;
+  height: 400px;
+}
+.project-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.info-3 {
+  margin-left: 20px;
+}
